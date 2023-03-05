@@ -1,0 +1,25 @@
+.card{
+    width: 600px;
+    margin: auto;
+}
+#board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .square {
+    background-color: #090535;
+    box-shadow: 0 0 2px #ffffff;
+    margin: 2px;
+    width: 16px;
+    height: 16px;
+    transition: 2s ease;
+  }
+  
+  .square:hover {
+    transition-duration: 0s;
+  }
+  
